@@ -140,4 +140,4 @@ MIT License. See `LICENSE` for details.
 
 ## Author
 
-Your Name · [your@email.com](mailto:your@email.com) · Universidad ___, 2026
+Pablo Ezcurra · pezcurra.ieu2021@student.ie.edu · Universidad Instituto de Empresa (IE), 2026
