@@ -138,6 +138,13 @@ MIT License. See `LICENSE` for details.
 
 ---
 
+## Citation
+
+Ezcurra Callejas, P. (2026). The impact of news sentiment on prediction market dynamics [Bachelor's thesis, IE University].
+
+
+---
+
 ## Author
 
 Pablo Ezcurra · pezcurra.ieu2021@student.ie.edu · Universidad Instituto de Empresa (IE), 2026
