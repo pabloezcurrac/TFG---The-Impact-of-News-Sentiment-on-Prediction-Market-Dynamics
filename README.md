@@ -2,13 +2,13 @@
 
 Does news sentiment predict returns on binary prediction markets? This project builds an end-to-end pipeline that combines Polymarket price data with daily news sentiment to test that hypothesis via OLS regression.
 
-Built as part of a Bachelor's thesis (TFG), Universidad ___, 2026.
+Built as part of a Bachelor's thesis (TFG), IE, 2026.
 
 ---
 
 ## Research question
 
-> Does lagged news sentiment predict daily returns (`ret_yes`) on Polymarket binary markets?
+Does lagged news sentiment predict daily returns (`ret_yes`) on Polymarket binary markets?
 
 ---
 
@@ -37,22 +37,11 @@ Gamma API + Goldsky    Keywords → Dedup
 ```
 polymarket-sentiment/
 │
-├── data/
-│   ├── raw/           # Original API responses (not committed)
-│   └── processed/     # Cleaned panel data (not committed)
+├── about me/
 │
-├── src/
-│   ├── fetch_markets.py   # Gamma API + Goldsky via GraphQL
-│   ├── fetch_news.py      # GNews API, keyword search, deduplication
-│   ├── build_panel.py     # Merge market and news data into slug × date panel
-│   ├── features.py        # log_news, z-score normalisation, lag t-1
-│   └── models.py          # OLS per-slug and pooled with HC1 standard errors
+├── tfg_data_polymarket_and_gnews/
 │
-├── notebooks/
-│   └── 01_exploration.ipynb   # EDA and result plots
-│
-├── README.md
-└── requirements.txt
+└── README.md
 ```
 
 ---
